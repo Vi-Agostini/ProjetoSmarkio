@@ -17,6 +17,7 @@ Como executar o projeto:
 
 **--Rodando o servidor**  
 	-Abra o cmd e acesse a pasta raíz do projeto;  
+		-para fazer isso abra o cmd (prompt de comando do seu computador, digite (sem as aspas) "cd" e em seguida o caminho da pasta onde o projeto está salvo.
 	-Quando se encontrar na raíz do projeto execute o seguinte comando(sem aspas) "node server.js";  
 	-O cmd vai exibir uma imagem positiva quando o servidor já estiver rodando.  
 
