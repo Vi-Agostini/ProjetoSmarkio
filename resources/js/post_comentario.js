@@ -27,7 +27,7 @@ $(document).ready(function () {
                 $("#response").css({ "display": "block" });
                 setTimeout(function() {
                     window.location.reload(1);
-                  }, 1500);
+                  }, 2000);
                 resetUploadForm();
             },
             error: function (response) {
