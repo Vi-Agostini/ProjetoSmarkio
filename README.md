@@ -16,10 +16,10 @@ Como executar o projeto:
 	-Insira as identificações para conexão com o banco de dados (usuario e senha).  
 
 **--Rodando o servidor**  
-	-Abra o cmd e acesse a pasta raíz do projeto; (para fazer isso abra o cmd (prompt de comando do seu computador, digite (sem as aspas) "cd" e em seguida o caminho da pasta onde o projeto está salvo.)
+	-Abra o cmd e acesse a pasta raíz do projeto; (para fazer isso abra o cmd (prompt de comando do seu computador, digite (sem as aspas) "cd" e em seguida o caminho da pasta onde o projeto está salvo, exemplo:C:\Users\usuario\Desktop\ProjetoSmarkio)  
 	-Quando se encontrar na raíz do projeto execute o seguinte comando(sem aspas) "node server.js";  
 	-O cmd vai exibir uma imagem positiva quando o servidor já estiver rodando.  
 
 **--Acessando**   
-	-Abra seu navegador de preferência e digite(sem aspas) "http://localhost:8080"  
+	-Abra seu navegador de preferência e digite na barra de url(sem aspas) "http://localhost:8080"  
 	-Pronto, o sistema está pronto para ser utilizado!  
