@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Cadastro de comentários</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/post_comentario.js"></script>
+	<script type="text/javascript" src="/js/get_comentario.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Novo comentário:</h3>
+				<form id="add_new_comentario">
+					<div class="form-group">
+						<label class="control-label" for="conteudo"></label>
+						<textarea type="text" class="form-control" id="conteudo"
+							placeholder="Insira seu comentário aqui" name="conteudo" required></textarea>
+					</div>
+
+					<button type="submit" class="btn btn-danger" id="btn-add-new-comentario">Cadastrar</button>
+				</form>
+				<div id="response" style="display:none; margin-top:10px">
+				</div>
+			</div>
+
+			<div class="col-sm-6" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+				<h3>Comentários:</h3>
+				<div class="row col-md-0 table-responsive">
+					<table id="comentarioTable" class="table table-striped">
+						<thead>
+							<tr>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div id="response" style="display:none; margin-top:10px">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+	</div>
+
+</body>
+
+
+
+</html>
