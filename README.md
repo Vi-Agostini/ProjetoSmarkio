@@ -9,7 +9,7 @@ Como executar o projeto:
 	 -pasta com o código do projeto;  
 
 **--Criando o banco de dados**  
-	-Crie o banco de dados (comentariosdb) e a tabela (comentarios);  
+	-Crie o banco de dados (comentariosdb);  
 
 **--Configurando a conexão com o banco de dados**  
 	-Abra a pasta do projeto utilizando o Visual Studio Code e procure pelo arquivo "env.js" (que se encontra na pasta app/config);  
